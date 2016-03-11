@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #1</title>
+</head>
+
+<body>
+    <center>
+        <h1>Exercise #1</h1>
+        <input type="button" id="button" value="Click me, please">
+        <br>
+        <br> List Elements
+        <ul id="ul">
+
+        </ul>
+    </center>
+    <script>
+        window.onload = function () {
+            document.getElementById('button').onclick = function () {
+                var listelement = document.createElement('li');
+                listelement.innerHTML = 'Hello!';
+                
+                ul.appendChild (listelement);
+            }
+        }
+    </script>
+</body>
+
+</html>
